@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  .navbar-fluid-width .navbar-header, .navbar-fluid-width .navbar-collapse, .navbar-fluid-width .container-fluid {
+    display: table!important;
+    width: 100%;
+  }
+
+  .navbar-fluid-width .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-fluid-width > .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-fluid-width .navbar-nav {
+    float: none;
+    display: table-row;
+  }
+
+  .navbar-fluid-width .navbar-nav > li {
+    float: none;
+    display: table-cell;
+  }
+
+  .navbar-fluid-width .navbar-nav > li > a {
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-fluid-width .navbar-nav > li > .dropdown-menu {
+    min-width: 100%;
+  }
+}
