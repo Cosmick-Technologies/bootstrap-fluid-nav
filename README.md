@@ -1,4 +1,4 @@
-# bootstrap-carousel-single-push
+# bootstrap-fluid-nav
 
 Don't forget that if you update @screen-sm-min, to update it in the CSS as well
 
